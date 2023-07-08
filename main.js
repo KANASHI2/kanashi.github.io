@@ -10,12 +10,9 @@ let textLoad = () =>{
   setTimeout(() => {
     text.textContent = "Front End Developer"
   }, 8000);
-  setTimeout(() => {
-    text.textContent = "Fu**ing Your A**"
-  }, 12000);
 }
 textLoad();
-setInterval(textLoad, 16000);
+setInterval(textLoad, 12000);
 
 let menu = document.querySelector(".nav-icon")
 let nav = document.querySelector("nav")
