@@ -20,6 +20,11 @@ let nav = document.querySelector("nav")
 menu.addEventListener('click', function(){
   nav.classList.toggle('active-nav')
 })
+document.onclick = function(e){
+  if (!menu.contains(e.target)){
+    nav.classList.toggle('active-nav')
+  }
+}
 
 let btn = document.querySelector('.top-btn')
 console.log(btn)
