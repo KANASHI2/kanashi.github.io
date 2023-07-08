@@ -22,7 +22,7 @@ menu.addEventListener('click', function(){
 })
 document.onclick = function(e){
   if (!menu.contains(e.target)){
-    nav.classList.toggle('active-nav')
+    nav.classList.remove('active-nav')
   }
 }
 
