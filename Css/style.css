@@ -311,7 +311,7 @@ h1 img{
   background: conic-gradient(#6b00e3 75%, #2a2544 0deg);
 }
 .react div {
-      background: conic-gradient(#6b00e3 10%, #2a2544 0deg);
+  background: conic-gradient(#6b00e3 10%, #2a2544 0deg);
 }
 .sass div,
 .pugjs div {
