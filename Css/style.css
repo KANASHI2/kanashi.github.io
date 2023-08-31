@@ -699,3 +699,6 @@ footer {
 .newbtn{
   font-size: 16px;
 }
+.card img {
+  cursor: pointer;
+}
